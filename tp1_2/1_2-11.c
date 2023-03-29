@@ -2,7 +2,6 @@
 
 #include<stdio.h>
 
-int main(){
     
 int main(){
     int uwu,owo;
@@ -14,5 +13,4 @@ int main(){
         }
     }
     return 0;
-}
 }
