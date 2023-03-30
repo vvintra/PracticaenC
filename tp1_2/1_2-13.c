@@ -1,7 +1,7 @@
 /*. Ingresar un número positivo, luego presentar por pantalla el número ingresado y su
 invertido. Ejemplo: si se ingresa el número 5219 -> el invertido es 9125*/
 
-#include 
+#include <stdio.h>
 int main(){
     int numero = 1, inverso = 0, contador = 1;
     printf("Ingrese un numero: ");
