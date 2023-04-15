@@ -1,0 +1,30 @@
+/*Ingresar un número entero positivo(realizar este control), luego presentar por pantalla
+la cantidad de dígitos que posee dicho número.*/
+
+#include<stdio.h>
+
+struct numero{
+
+    int valor;
+
+};
+int main(){
+    struct numero num;
+    do
+    {
+    printf("Ingrese un numero entero");
+    scanf("%i",&num.valor);
+
+    } while (num.valor <= 0);
+
+        int count = 0;
+        int temp = num.valor;
+        while (temp != 0)
+    {
+    count ++;
+    temp /= 10;
+}
+
+printf("el numero %d tiene %d de digitos ",num.valor, count);
+
+}
