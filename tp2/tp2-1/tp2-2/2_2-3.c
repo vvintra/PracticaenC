@@ -3,7 +3,7 @@ número ingresado es o no es primo. Para resolver implementar:
 a- una función que realice el control de que el número sea positivo.
 b- una función que determine si un número es primo.*/
 #include <stdio.h>
-#include <stdbool.h> //librería para utilizar el tipo de dato booleano
+#include <stdbool.h>
 
 bool es_positivo(int num){
     if(num > 0){
